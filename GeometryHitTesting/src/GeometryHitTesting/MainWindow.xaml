@@ -1,0 +1,16 @@
+﻿<Window x:Class="GeometryHitTesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded" >
+    <Grid   MouseDown="Viewbox_MouseDown"
+             MouseUp="viewbox_MouseUp" IsHitTestVisible="True" Background="Transparent" >
+        <Viewbox Name="viewbox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Border Padding="100" BorderBrush="Red" BorderThickness="1">
+                <Grid>
+                    <Polygon Stroke="Blue" Name="polygonShape"></Polygon>
+                    <Polygon Stroke="Gray" Name="convexPolygonShape"></Polygon>
+                </Grid>
+            </Border>
+        </Viewbox>
+    </Grid>
+</Window>

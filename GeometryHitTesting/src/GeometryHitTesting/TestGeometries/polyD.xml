@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Polygon>
+  <Edge>
+    <Point>
+      <X>100.000</X>
+      <Y>100.000</Y>
+    </Point>
+    <Point>
+      <X>500.000</X>
+      <Y>100.000</Y>
+    </Point>
+  </Edge>
+  <Edge>
+    <Point>
+      <X>500.000</X>
+      <Y>100.000</Y>
+    </Point>
+    <Point>
+      <X>500.000</X>
+      <Y>500.000</Y>
+    </Point>
+  </Edge>
+  <Edge>
+    <Point>
+      <X>500.000</X>
+      <Y>500.000</Y>
+    </Point>
+    <Point>
+      <X>100.000</X>
+      <Y>500.000</Y>
+    </Point>
+  </Edge>
+  <Edge>
+    <Point>
+      <X>100.000</X>
+      <Y>500.000</Y>
+    </Point>
+    <Point>
+      <X>100.000</X>
+      <Y>100.000</Y>
+    </Point>
+  </Edge>
+</Polygon>
